@@ -8,6 +8,8 @@ Each test prints ✅ / ❌ (with what you got vs. what was expected), or ⏭ if 
 """
 import sys, importlib
 import numpy as np
+
+from lab3_part1 import *
 from lab_utils import enc, EOS, N_HEADS, params, check, show_top_k, run_tests, check_against_gpt2
 
 # Load your functions from lab3_part1.py  (instructors: add --solution to test the answer key)
